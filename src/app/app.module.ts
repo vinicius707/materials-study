@@ -1,12 +1,17 @@
+//Angular
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { LayoutModule } from '@angular/cdk/layout';
 
+//Routing
 import { AppRoutingModule } from './app-routing.module';
+
+//Component
 import { AppComponent } from './app.component';
+import { NavComponentComponent } from './nav-component/nav-component.component';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
-import { NavComponentComponent } from './nav-component/nav-component.component';
-import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
